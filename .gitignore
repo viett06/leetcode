@@ -1,0 +1,49 @@
+# Môi trường ảo Python
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache và file biên dịch
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Biến môi trường chứa mật khẩu, API key
+.env
+.env.*
+!.env.example
+
+# Cache của các công cụ
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.cache/
+
+# Báo cáo coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Build và đóng gói
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Log
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Cấu hình IDE cá nhân
+.vscode/
+.idea/
+
+# File hệ điều hành
+.DS_Store
+._*
+Thumbs.db
